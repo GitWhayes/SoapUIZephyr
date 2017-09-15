@@ -1,7 +1,7 @@
 Status: OK
-Time Taken: 222
+Time Taken: 250
 Size: 2457
-Timestamp: Thu Sep 14 22:25:14 EDT 2017
+Timestamp: Thu Sep 14 22:36:09 EDT 2017
 TestStep: rqstGeocode
 
 ----------------- Messages ------------------------------
@@ -33,10 +33,10 @@ Server: [mafe]
 Alt-Svc: [quic=":443"; ma=2592000; v="39,38,37,35"]
 Access-Control-Allow-Origin: [*]
 Vary: [Accept-Language]
-Expires: [Sat, 16 Sep 2017 02:25:14 GMT]
+Expires: [Sat, 16 Sep 2017 02:36:09 GMT]
 #status#: [HTTP/1.1 200 OK]
 X-XSS-Protection: [1; mode=block]
-Date: [Fri, 15 Sep 2017 02:25:14 GMT]
+Date: [Fri, 15 Sep 2017 02:36:09 GMT]
 Content-Type: [application/json; charset=UTF-8]
 
 {

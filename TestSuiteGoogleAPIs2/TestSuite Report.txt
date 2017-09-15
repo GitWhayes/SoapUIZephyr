@@ -1,0 +1,602 @@
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   TestSuiteGoogleAPIs2                                    
+                                                           
+                                                           
+                                                           
+   TestSuite Metrics                                       
+                                                           
+                                                           
+   Overview                                                
+                                                           
+     Project                  ZephyrForJIRAPOC2            
+                                                           
+     Test suite name          TestSuiteGoogleAPIs2         
+                                                           
+                                                           
+     Description              TestSuite generated for      
+                                                           
+     Environment              Default environment          
+                                                           
+                                                           
+   Test Case Summary                                       
+                                                           
+     TC_MthdGetGeocode        TestCase generated for       
+                              REST Resource                
+                              [MthdGetGeocode] located     
+                              at                           
+                                                           
+     TC_MthdGetDirections     TestCase generated for       
+                              REST Resource                
+                              [MthdGetDirections]          
+                              located at [/maps/api/dire   
+     TC_MthdGetESTTimeZone    TestCase generated for       
+                              REST Resource                
+                              [MthdGetTimeZone] located    
+                              at                           
+                                                           
+     TC_MthdGetTimeZone       TestCase generated for       
+                              REST Resource                
+                              [MthdGetTimeZone] located    
+                              at                           
+                                                           
+   Base Metrics                                            
+                                                           
+     Number of test cases     4                            
+                                                           
+     Number of test steps     4                            
+                                                           
+                                                           
+     Number of assertions     4                            
+                                                           
+     Number of load tests     0                            
+                                                           
+                                                           
+                                                           
+   TestSuite Properties                                    
+                                                           
+                                                           
+   Name              Value                                 
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   created with ReadyAPI on Fri Sep 15 06:32:16 EDT 2017   
+                                                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   TestSuiteGoogleAPIs2                                    
+                                                           
+                                                           
+                                                           
+   TestCases                                               
+                                                           
+                                                           
+   TestCase Name       TestCase Description                
+                                                           
+     TC_MthdGetGeocode TestCase generated for REST         
+                       Resource [MthdGetGeocode] located   
+                                                           
+     TC_MthdGetDirecti TestCase generated for REST         
+     ons               Resource [MthdGetDirections]        
+     TC_MthdGetESTTime TestCase generated for REST         
+     Zone              Resource [MthdGetTimeZone] located  
+                                                           
+     TC_MthdGetTimeZon TestCase generated for REST         
+     e                 Resource [MthdGetTimeZone] located  
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   created with ReadyAPI on Fri Sep 15 06:32:16 EDT 2017   
+                                                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   TestSuiteGoogleAPIs2                                    
+                                                           
+                                                           
+                                                           
+   Result Metrics                                          
+                                                           
+                                                           
+   Result Metrics                                          
+                                                           
+     Start Time               Fri Sep 15 06:32:11 EDT      
+                                                           
+     End Time                 Fri Sep 15 06:32:13 EDT      
+                                                           
+                                                           
+     Time Taken               1735 ms                      
+                                                           
+     TestCase Count           4                            
+                                                           
+                                                           
+     Failed TestCase Count    0                            
+                                                           
+     TestStep Count           4                            
+                                                           
+     Failed TestStep Count    0                            
+                                                           
+                                                           
+     Assertion Count          4                            
+                                                           
+     Failed Assertion Count   0                            
+                                                           
+                                                           
+   TestCase Results                                        
+                                                           
+                                                           
+                                                           
+   TestCase       StatuStart Time   Reason                 
+                  s    Time  Taken                         
+   TC_MthdGetGeocoFINIS06:32:204 ms                        
+   de                                                      
+   TC_MthdGetDirecFINIS06:32:918 ms                        
+   tions                                                   
+   TC_MthdGetESTTiFINIS06:32:29 ms                         
+   meZone                                                  
+   TC_MthdGetTimeZFINIS06:32:20 ms                         
+   one                                                     
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   created with ReadyAPI on Fri Sep 15 06:32:16 EDT 2017   
+                                                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   TestSuiteGoogleAPIs2                                    
+                                                           
+                                                           
+                                                           
+   TC_MthdGetGeocode Summary                               
+                                                           
+                                                           
+                                                           
+   Status  Start Time Time     Reason                      
+                      Taken                                
+   FINISHE 06:32:11   204 ms                               
+   D                                                       
+                                                           
+                                                           
+   TestCase Properties                                     
+                                                           
+                                                           
+                                                           
+   Name              Value                                 
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+   OK    06:32:11                                          
+         .727    Step 1 [rqstGeocode] OK: took 204 ms      
+   TestStep Parameters                                     
+                                                           
+                                                           
+   Test steps                                              
+                                                           
+     rqstGeocode                                           
+                                                           
+     Endpoint:               https://maps.googleapis       
+                             .com                          
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   created with ReadyAPI on Fri Sep 15 06:32:17 EDT 2017   
+                                                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   TestSuiteGoogleAPIs2                                    
+                                                           
+                                                           
+                                                           
+   TC_MthdGetDirections Summary                            
+                                                           
+                                                           
+   Status  Start Time Time     Reason                      
+                      Taken                                
+                                                           
+   FINISHE 06:32:12   918 ms                               
+   D                                                       
+                                                           
+                                                           
+   TestCase Properties                                     
+                                                           
+                                                           
+                                                           
+   Name              Value                                 
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+   OK    06:32:12Step 1 [rqstDirections] OK: took 918 ms   
+         .076                                              
+   TestStep Parameters                                     
+                                                           
+                                                           
+   Test steps                                              
+                                                           
+     rqstDirections                                        
+                                                           
+     Endpoint:               https://maps.googleapis       
+                             .com                          
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   created with ReadyAPI on Fri Sep 15 06:32:17 EDT 2017   
+                                                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   TestSuiteGoogleAPIs2                                    
+                                                           
+                                                           
+                                                           
+   TC_MthdGetESTTimeZone Summary                           
+                                                           
+                                                           
+   Status  Start Time Time     Reason                      
+                      Taken                                
+                                                           
+   FINISHE 06:32:13   29 ms                                
+   D                                                       
+                                                           
+                                                           
+   TestCase Properties                                     
+                                                           
+                                                           
+                                                           
+   Name              Value                                 
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+   OK    06:32:13Step 1 [rqstTimeZone] OK: took 29 ms      
+         .126                                              
+   TestStep Parameters                                     
+                                                           
+                                                           
+   Test steps                                              
+                                                           
+     rqstTimeZone                                          
+                                                           
+     Endpoint:               https://maps.googleapis       
+                             .com                          
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   created with ReadyAPI on Fri Sep 15 06:32:17 EDT 2017   
+                                                           
+                                                           
+                                                           
+                                                           
+
+
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   TestSuite Results Report for                            
+                                                           
+                                                           
+                                                           
+   TestSuiteGoogleAPIs2                                    
+                                                           
+                                                           
+                                                           
+   TC_MthdGetTimeZone Summary                              
+                                                           
+                                                           
+   Status  Start Time Time     Reason                      
+                      Taken                                
+                                                           
+   FINISHE 06:32:13   20 ms                                
+   D                                                       
+                                                           
+                                                           
+   TestCase Properties                                     
+                                                           
+                                                           
+                                                           
+   Name              Value                                 
+                                                           
+                                                           
+   TestStep Results                                        
+                                                           
+                                                           
+                                                           
+   StatusTimestamMessage                                   
+         p                                                 
+   OK    06:32:13Step 1 [rqstTimeZone] OK: took 20 ms      
+         .175                                              
+   TestStep Parameters                                     
+                                                           
+                                                           
+   Test steps                                              
+                                                           
+     rqstTimeZone                                          
+                                                           
+     Endpoint:               https://maps.googleapis       
+                             .com                          
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+   created with ReadyAPI on Fri Sep 15 06:32:17 EDT 2017   
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+
+
