@@ -1,0 +1,83 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>grpWHSoapUI</groupId>
+  <artifactId>artWHSoapUI</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <description>WHayes Test SOAPUI Zephyr for JIRA</description>
+ 
+ <dependencies>
+  <dependency>
+    <groupId>org.reflections</groupId>
+    <artifactId>reflections</artifactId>
+    <version>0.9.10</version>
+</dependency>
+  <dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.8.8</version>
+		</dependency>
+	</dependencies>
+<!--Add the SmartBear Ready! API plugin repository.--> 
+<!--Maven will download the plugin from the specified URL.-->
+   <pluginRepositories>
+      <pluginRepository>
+         <id>SmartBearPluginRepository</id>
+         <url>http://smartbearsoftware.com/repository/maven2</url>
+      </pluginRepository>
+   </pluginRepositories>
+<build>
+    <plugins>
+        <plugin>
+            <groupId>com.smartbear</groupId>
+            <artifactId>ready-api-maven-plugin</artifactId>
+            <version>1.4.1</version>
+			<dependencies>
+					<dependency>
+						<groupId>org.postgresql</groupId>
+						<artifactId>postgresql</artifactId>
+						<version>9.3-1102-jdbc41</version>
+					</dependency>
+			</dependencies>
+            <executions>
+                <execution>
+                    <id>RestAPI-TestSuite</id>
+					<goals>
+                        <goal>test</goal>
+                    </goals>
+                    <configuration>
+                        <projectFile>RestAPI-TestSuite.xml</projectFile>
+                        <outputFolder>target/surefire-reports</outputFolder>
+                        <testSuite>getCategorySuite</testSuite>
+                        <junitReport>true</junitReport>
+                        <exportwAll>true</exportwAll>
+                        <printReport>true</printReport>
+                        <testFailIgnore>true</testFailIgnore>
+						<readyApiProperties>
+						
+					</readyApiProperties>
+                    </configuration>
+                    <phase>test</phase>
+                </execution>
+ <!-- Comment out all of the other RD Test -->
+               <execution>
+                    <id>WHTestSoapuiZephyr</id>
+					<goals>
+                        <goal>test</goal>
+                    </goals>
+                    <configuration>
+                        <projectFile>ZephyrForJIRAPOC-readyapi-project.xml</projectFile>
+                        <outputFolder>target/surefire-reports</outputFolder>
+                        <junitReport>true</junitReport>
+                        <exportwAll>true</exportwAll>
+                        <printReport>true</printReport>
+                        <testFailIgnore>true</testFailIgnore>
+						<readyApiProperties>				
+					</readyApiProperties>
+                    </configuration>
+                    <phase>test</phase>
+                </execution>           
+            </executions>
+        </plugin>
+    </plugins>
+</build> 
+</project>
