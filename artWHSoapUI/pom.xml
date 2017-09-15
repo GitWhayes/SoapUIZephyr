@@ -16,7 +16,28 @@
 			<artifactId>testng</artifactId>
 			<version>6.8.8</version>
 		</dependency>
-	</dependencies>
+  <dependency>
+  	<groupId>org.apache.maven</groupId>
+  	<artifactId>maven-plugin-api</artifactId>
+  	<version>3.5.0</version>
+  </dependency>
+  <dependency>
+  	<groupId>com.smartbear.readyapi</groupId>
+  	<artifactId>ready-api-testserver-client</artifactId>
+  	<version>1.2.1</version>
+  	<scope>test</scope>
+  </dependency>
+  <dependency>
+  	<groupId>com.smartbear.readyapi</groupId>
+  	<artifactId>testserver-maven-plugin</artifactId>
+  	<version>1.0.0</version>
+  </dependency>
+  <dependency>
+  	<groupId>org.apache.maven.plugin-testing</groupId>
+  	<artifactId>maven-plugin-testing-harness</artifactId>
+  	<version>3.3.0</version>
+  </dependency>
+ </dependencies>
 <!--Add the SmartBear Ready! API plugin repository.--> 
 <!--Maven will download the plugin from the specified URL.-->
    <pluginRepositories>

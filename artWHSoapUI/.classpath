@@ -32,5 +32,18 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/graywa01/.soapui/plugins/ready-api-git-plugin-1.0 (2).jar"/>
+	<classpathentry kind="lib" path="C:/Users/graywa01/.soapui/plugins/ready-api-git-plugin-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/graywa01/.soapui/plugins/ready-api-git-plugin-1.0.2-2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/graywa01/.soapui/plugins/ready-jira-plugin-1.0.1-2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/graywa01/.soapui/plugins/ready-jira-plugin-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/graywa01/.soapui/plugins/ready-jira-plugin-1.1-dist.jar"/>
+	<classpathentry kind="lib" path="C:/Users/graywa01/.soapui/plugins/ready-mqtt-plugin-dist.jar"/>
+	<classpathentry kind="lib" path="C:/Users/graywa01/.soapui/plugins/ready-uxm-plugin-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/graywa01/.soapui/plugins/ready-uxm-plugin-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/graywa01/.soapui/plugins/soapui-swagger-plugin-2.2-dist.jar"/>
+	<classpathentry kind="lib" path="C:/Users/graywa01/.soapui/plugins/soapui-swagger-plugin-2.3.0-dist.jar"/>
+	<classpathentry kind="lib" path="C:/Users/graywa01/.soapui/plugins/soapui-swagger-plugin-2.5.1-dist.jar"/>
+	<classpathentry kind="lib" path="C:/Users/graywa01/.soapui/plugins/soapui-swagger-plugin-2.5.3-dist.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
