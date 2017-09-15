@@ -1,6 +1,6 @@
 Status: OK
-Time Taken: 21
-Size: 154
+Time Taken: 34
+Size: 157
 Timestamp: Thu Sep 14 22:25:15 EDT 2017
 TestStep: rqstTimeZone
 
@@ -11,7 +11,7 @@ HTTP Version: HTTP/1.1
 Endpoint: https://maps.googleapis.com
 Method: GET
 StatusCode: 200
-URL: https://maps.googleapis.com/maps/api/timezone/json?location=38.908133%2C-77.047119&timestamp=1458000000&key=AIzaSyBoyWbnJVDukmFdwIxAyPhWExjOVySJgpE
+URL: https://maps.googleapis.com/maps/api/timezone/json?location=34.052234%2C-118.243685&timestamp=1458000000&key=AIzaSyBoyWbnJVDukmFdwIxAyPhWExjOVySJgpE
 
 ---------------- Request ---------------------------
 Connection: [Keep-Alive]
@@ -19,7 +19,7 @@ User-Agent: [Apache-HttpClient/4.5.2 (Java/1.8.0_131)]
 Host: [maps.googleapis.com]
 Accept-Encoding: [gzip,deflate]
 
-GET https://maps.googleapis.com/maps/api/timezone/json?location=38.908133%2C-77.047119&timestamp=1458000000&key=AIzaSyBoyWbnJVDukmFdwIxAyPhWExjOVySJgpE HTTP/1.1
+GET https://maps.googleapis.com/maps/api/timezone/json?location=34.052234%2C-118.243685&timestamp=1458000000&key=AIzaSyBoyWbnJVDukmFdwIxAyPhWExjOVySJgpE HTTP/1.1
 Accept-Encoding: gzip,deflate
 Host: maps.googleapis.com
 Connection: Keep-Alive
@@ -41,9 +41,9 @@ Content-Type: [application/json; charset=UTF-8]
 
 {
    "dstOffset" : 3600,
-   "rawOffset" : -18000,
+   "rawOffset" : -28800,
    "status" : "OK",
-   "timeZoneId" : "America/New_York",
-   "timeZoneName" : "Eastern Daylight Time"
+   "timeZoneId" : "America/Los_Angeles",
+   "timeZoneName" : "Pacific Daylight Time"
 }
 

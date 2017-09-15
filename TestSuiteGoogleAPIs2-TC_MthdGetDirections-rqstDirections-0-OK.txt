@@ -1,7 +1,7 @@
 Status: OK
-Time Taken: 126
+Time Taken: 866
 Size: 22202
-Timestamp: Thu Sep 14 21:43:54 EDT 2017
+Timestamp: Thu Sep 14 22:25:14 EDT 2017
 TestStep: rqstDirections
 
 ----------------- Messages ------------------------------
@@ -32,10 +32,10 @@ Cache-Control: [public, max-age=86400]
 Server: [mafe]
 Alt-Svc: [quic=":443"; ma=2592000; v="39,38,37,35"]
 Vary: [Accept-Language]
-Expires: [Sat, 16 Sep 2017 01:43:54 GMT]
+Expires: [Sat, 16 Sep 2017 02:25:15 GMT]
 #status#: [HTTP/1.1 200 OK]
 X-XSS-Protection: [1; mode=block]
-Date: [Fri, 15 Sep 2017 01:43:54 GMT]
+Date: [Fri, 15 Sep 2017 02:25:15 GMT]
 Content-Type: [application/json; charset=UTF-8]
 
 {
