@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="ZephyrForJIRAPOC2.TestSuiteGoogleAPIs2" tests="4" failures="1" errors="0" time="1.002" package="ZephyrForJIRAPOC2" id="1">
+  <testsuite name="ZephyrForJIRAPOC2.TestSuiteGoogleAPIs2" tests="4" failures="1" errors="0" time="0.439" package="ZephyrForJIRAPOC2" id="1">
     <properties>
       <property name="soapui.properties" value="soapui.properties"/>
       <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -47,7 +47,7 @@
       <property name="user.name" value="graywa01"/>
       <property name="soapui.ext.listeners" value="C:\Program Files\SmartBear\ReadyAPI-2.1.0\bin\listeners"/>
       <property name="java.vm.specification.version" value="1.8"/>
-      <property name="sun.java.command" value="com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner -sTestSuiteGoogleAPIs2 -a -j -J -fC:\Users\graywa01\Documents\_Nielsen\Zephyr\ZephyrForJIRAPOC-readyapi-project -g -RJUnit-Style HTML Report -EDefault environment C:\Users\graywa01\Documents\_Nielsen\Zephyr\ZephyrForJIRAPOC-readyapi-project"/>
+      <property name="sun.java.command" value="com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner -sTestSuiteGoogleAPIs2 -r -a -j -J -fC:\Users\graywa01\Documents\_Nielsen\Zephyr\ZephyrForJIRAPOC-readyapi-project -g -RJUnit-Style HTML Report -F.xml -EDefault environment C:\Users\graywa01\Documents\_Nielsen\Zephyr\ZephyrForJIRAPOC-readyapi-project"/>
       <property name="java.home" value="C:\Program Files\SmartBear\ReadyAPI-2.1.0\jre"/>
       <property name="sun.arch.data.model" value="64"/>
       <property name="groovy.source.encoding" value="iso-8859-1"/>
@@ -66,16 +66,16 @@
       <property name="sun.desktop" value="windows"/>
       <property name="sun.cpu.isalist" value="amd64"/>
     </properties>
-    <testcase name="TC_MthdGetGeocode" time="0.209">
+    <testcase name="TC_MthdGetGeocode" time="0.253">
       <properties/>
     </testcase>
-    <testcase name="TC_MthdGetDirections" time="0.75">
+    <testcase name="TC_MthdGetDirections" time="0.126">
       <properties/>
     </testcase>
-    <testcase name="TC_MthdGetESTTimeZone" time="0.021">
+    <testcase name="TC_MthdGetESTTimeZone" time="0.029">
       <properties/>
     </testcase>
-    <testcase name="TC_MthdGetTimeZone" time="0.022">
+    <testcase name="TC_MthdGetTimeZone" time="0.031">
       <properties/>
       <failure type="The test run was cancelled due to a failed test step." message="The test run was cancelled due to a failed test step."><![CDATA[<h3><b>rqstTimeZone Failed</b></h3><pre>[Contains EST TimeZone] Missing token [Eastern Standard Time
 ] in Response

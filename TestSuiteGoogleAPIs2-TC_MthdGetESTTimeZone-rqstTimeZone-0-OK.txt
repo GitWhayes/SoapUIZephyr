@@ -1,7 +1,7 @@
 Status: OK
-Time Taken: 21
+Time Taken: 29
 Size: 154
-Timestamp: Thu Sep 14 21:13:56 EDT 2017
+Timestamp: Thu Sep 14 21:43:54 EDT 2017
 TestStep: rqstTimeZone
 
 ----------------- Messages ------------------------------
@@ -32,11 +32,11 @@ Server: [mafe]
 Cache-Control: [public, max-age=86400]
 Alt-Svc: [quic=":443"; ma=2592000; v="39,38,37,35"]
 Access-Control-Allow-Origin: [*]
-Expires: [Sat, 16 Sep 2017 01:02:40 GMT]
+Expires: [Sat, 16 Sep 2017 01:42:42 GMT]
 #status#: [HTTP/1.1 200 OK]
 X-XSS-Protection: [1; mode=block]
-Date: [Fri, 15 Sep 2017 01:02:40 GMT]
-Age: [676]
+Date: [Fri, 15 Sep 2017 01:42:42 GMT]
+Age: [72]
 Content-Type: [application/json; charset=UTF-8]
 
 {
