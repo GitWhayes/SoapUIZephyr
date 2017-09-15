@@ -4,8 +4,12 @@
   <artifactId>artWHSoapUI</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <description>WHayes Test SOAPUI Zephyr for JIRA</description>
- 
- <dependencies>
+ 	<properties>
+		<do.junit.report>true</do.junit.report>
+		<soapui.home>C:\Program Files\SmartBear/ReadyAPI-2.1.0\bin</soapui.home>
+ 	</properties>
+ 	<dependencies>
+
   <dependency>
     <groupId>org.reflections</groupId>
     <artifactId>reflections</artifactId>
@@ -65,25 +69,7 @@
 					</dependency>
 			</dependencies>
             <executions>
-                <execution>
-                    <id>RestAPI-TestSuite</id>
-					<goals>
-                        <goal>test</goal>
-                    </goals>
-                    <configuration>
-                        <projectFile>RestAPI-TestSuite.xml</projectFile>
-                        <outputFolder>target/surefire-reports</outputFolder>
-                        <testSuite>getCategorySuite</testSuite>
-                        <junitReport>true</junitReport>
-                        <exportwAll>true</exportwAll>
-                        <printReport>true</printReport>
-                        <testFailIgnore>true</testFailIgnore>
-						<readyApiProperties>
-						
-					</readyApiProperties>
-                    </configuration>
-                    <phase>test</phase>
-                </execution>
+         
  <!-- Comment out all of the other RD Test -->
                <execution>
                     <id>WHTestSoapuiZephyr</id>
@@ -93,17 +79,25 @@
                     <configuration>
                         <projectFile>ZephyrForJIRAPOC-readyapi-project.xml</projectFile>
                         <outputFolder>target/surefire-reports</outputFolder>
-                        <junitReport>true</junitReport>
-                        <exportwAll>true</exportwAll>
-                        <printReport>true</printReport>
-                        <testFailIgnore>true</testFailIgnore>
-						<readyApiProperties>				
+   					<junitReport>true</junitReport>
+					<printReport>true</printReport>
+					<exportAll>true</exportAll>
+					<reportFormat>"TestCase Report"</reportFormat>
+					<reportType>TestCase Report</reportType>
+					<reportName>maven_pdf_report</reportName>
+					<outputFolder>Results</outputFolder>
+					<readyApiProperties>
+						<property>
+							<name>soapui.home</name> 
+							<value>C:\Program Files\SmartBear\ReadyAPI-2.1.0\bin</value>
+						</property>
 					</readyApiProperties>
                     </configuration>
                     <phase>test</phase>
                 </execution>           
             </executions>
         </plugin>
+
     </plugins>
 </build> 
 </project>
