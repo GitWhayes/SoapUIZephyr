@@ -37,6 +37,11 @@
   	<artifactId>maven-plugin-testing-harness</artifactId>
   	<version>3.3.0</version>
   </dependency>
+  <dependency>
+  	<groupId>org.apache.maven.surefire</groupId>
+  	<artifactId>surefire-junit</artifactId>
+  	<version>2.6</version>
+  </dependency>
  </dependencies>
 <!--Add the SmartBear Ready! API plugin repository.--> 
 <!--Maven will download the plugin from the specified URL.-->
